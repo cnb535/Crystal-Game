@@ -1,0 +1,13 @@
+h1 {
+	font-size: 40px;
+}
+
+.crystals {
+	width: 20%;
+	height: 20%;
+}
+
+#wrapper {
+	text-align: center;
+	background-image: url("../images/green_dust_scratch.png");
+}

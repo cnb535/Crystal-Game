@@ -7,3 +7,7 @@ const getRandomIntInclusive = function(min, max) {
 
 const randomNumber = getRandomIntInclusive(120, 19);
 console.log(randomNumber);
+
+const randomNumberDiv = document.getElementById("random-number");
+
+randomNumberDiv.innerHTML = randomNumber;
