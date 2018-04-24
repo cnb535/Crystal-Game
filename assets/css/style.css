@@ -55,6 +55,13 @@ p {
 }
 
 #number {
+	position: relative;
+	top: 7px;
+	font-size: 26px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#number-wrapper {
 	width: 100px;
 	height: 40px;
 	background-color: #fff;
@@ -69,6 +76,7 @@ p {
 #random-number {
 	position: relative;
 	top: 30px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #random-number-wrapper {
@@ -132,4 +140,3 @@ p {
 	position: relative;
 	left: 340px;
 }
-

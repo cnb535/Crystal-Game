@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Crystals Collector</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -33,9 +34,9 @@
 				<div id="random-number"></div>
 			</div>
 			<div id="tally">
-				<p>Wins: 0
+				<p>Wins: <span id="wins"></span>
 				<br>
-				Losses: 0
+				Losses: <span id="losses"></span>
 				</p>
 			</div>
 			<div id="buttons">
@@ -48,8 +49,8 @@
 				<div id="total">
 					<p>Your total score is:</p>
 				</div>
-				<div id="number">
-					<p>100</p>
+				<div id="number-wrapper">
+					<div id="number"></div>
 				</div>
 			</div>
 		</div>
